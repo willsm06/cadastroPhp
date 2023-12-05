@@ -1,0 +1,210 @@
+/* DEFINIÇÕES GLOBAIS */
+
+*{
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+}
+html, body {
+  margin:0;
+  padding:0;
+  min-height:100%;
+}
+
+/* DEFINIÇÕES DE LAYOUT */
+
+.cabecalho, .rodape{
+    width:100%;
+	height:60px;
+    background-color: #B22222;
+	line-height: 40px;
+	font-size: 30px;
+	color: #fff;
+	text-align: LEFT;
+	font-weight: 500;
+}
+
+.container{
+	width: 1200px;
+	margin: 0px auto;
+	padding: 10px 0;
+}
+
+.rodape{
+	position: relative;
+	float:left;
+	margin-top:50px;
+}
+
+/*DEFINIÇÃO DE TITULO */
+.titulo-principal{
+	font-size: 25px;
+	font-weight: 500;
+	color: #B22222;
+	border-bottom: 2px solid #B22222;
+	border-left: 5px solid #B22222;
+	margin: 30px 0;
+	padding:10px 20px;
+	width:50%
+}
+
+
+/* DEFINIÇÃO DOS FIELDSETS */
+fieldset{
+	margin:0px 0px 20px 0;
+	padding:20px 20px 0 20px;
+	float:left;
+	border:1px solid #B22222;
+	border-radius: 3px;
+	text-align: left;
+}
+fieldset filedset{
+	width:100%
+}
+legend{
+	font-size: 12px;
+	font-weight: 600;
+	padding: 0 10px;
+	margin:0;
+	color: #B22222;
+}
+.input-form{
+	float:left;
+	width:1154px;
+}
+label{
+	display: block;
+	color: #900;
+	text-align: left;
+	font-size: 12px;
+	font-weight: 600;
+	margin-left:5px;
+}
+input[type=text],
+input[type=date],
+select,
+input[type=password]{
+	height: 20px;
+	padding: 6px;
+	border-radius: 3px;
+	border:1px solid #B22222;
+	margin:0;
+	font-size:12px;
+	outline-color: #719ECE;
+}
+.sucess{
+	background-color: #28a745;
+    border-color:#28a745;
+	color: #fff;
+}
+.btn-danger {
+    color: #fff;
+    background-color: #B22222;
+    border-color: #B22222;
+}
+button{
+	padding:15px;
+	margin: 0 0 0 20px;
+	float: right;
+	width:150px;
+    font-weight: 400;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+	border:1px solid;
+}
+.txtnome{
+	width:98%;
+}
+.tamanho{
+	width:calc(100% - 14px);
+	margin:0;
+}
+select{
+	height: 35px;
+	width:100% !important;
+	outline-color: #719ECE;
+}
+option{
+	font-size: 12px;
+	height: 30px !important;
+	padding: 15px
+}
+.radio{
+	accent-color:#B22222;
+	border: 0.15em solid #B22222;
+	border-radius: 50%;
+	float: left;
+	margin-top: 3px;
+	height: 15px;
+	width: 15px;
+}
+.rdoSexo{
+	display: inline;
+	margin-right: 30px;
+	float: left;
+}
+.teste{
+	margin-top: 8px;
+	height: 20px;
+	line-height: 20px;
+	width: 33%;
+	float: left;
+}
+#identificacao{
+	width: 736px;
+	margin-right: 20px;
+}
+#fotografia{
+	width: 356px;
+	height: 203px;
+	padding-bottom: 20px;
+}
+#fotografia img{
+	width:52%;
+	float:left;
+}
+input[type=file]{
+	display: none;
+}
+.botao{
+	background-color: #990000;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px 10px;
+	margin-left: 5px;
+	float:right
+}
+.colunas{
+	display: flex;
+	justify-content: space-between;
+}
+.coluna{
+	height: 50px ;
+	margin-bottom: 20px;
+}
+.coluna1{
+	width:100%;
+	padding:0;
+}
+.coluna2{
+	width:75%;
+	padding:0;
+}
+.coluna3{
+	width:50%;
+	padding:0;
+}
+.coluna4{
+	width:25%;
+	padding:0;
+}
+.coluna5{
+	width:33%;
+	padding:0;
+}
+.espace{
+	margin-left:20px;
+}
